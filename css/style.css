@@ -7,6 +7,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(34, 34, 34);
     height: 2500px;
+
+    position: relative;
 }
 
 header{
@@ -129,8 +131,8 @@ footer{
     text-transform: uppercase;
     height: 50px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0; 
 }
 
 footer h4{
