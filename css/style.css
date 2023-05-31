@@ -5,8 +5,8 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 5000px;
     background-color: rgb(34, 34, 34);
+    height: 5000px;
 }
 
 header{
@@ -121,4 +121,18 @@ div.content button{
     border-style: none;  
 
     border-radius: 5px;
+}
+
+footer{
+    background-color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h4{
+    margin: 15px;
 }
